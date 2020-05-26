@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+}
+
+nav {
+	position: sticky;
+}
+
+.menu {
+	display: flex;
+	background: #ddd;
+	padding: 10px 0;
+}
+
+.menu li {
+	flex: 1;
+	text-align: center;
+}
+
+.menu li a {
+	color: #000;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+}
